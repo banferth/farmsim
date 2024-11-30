@@ -99,16 +99,39 @@ DROP VIEW IF EXISTS animal_prod_profit_day;
 CREATE VIEW animal_prod_profit_day AS
 -- adjusts water to be free and the price of forage to be minimum costs 
 -- based on input prices assuming a mixer
-WITH fill_free AS (
+WITH mix AS (
+SELECT name, title, show, unit, mass_l, price_l,
+       CASE WHEN name = 'DRYGRASS_WINDROW' THEN 0.5 
+	        WHEN name = 'STRAW' THEN 0.3
+		    WHEN name = 'SILAGE' THEN 0.2 END pct_mix 
+  FROM fill 
+ WHERE name IN ('DRYGRASS_WINDROW', 'SILAGE', 'STRAW')
+ 
+), wgts AS (
+ SELECT name, mass_l * pct_mix mass_wgt, price_l * pct_mix price_wgt
+   FROM mix
+
+), tmr AS (
+SELECT 'FORAGE' name, sum(mass_wgt) mass, sum(price_wgt) price FROM wgts
+
+), fill_alt AS (
+-- customizes forage price to reflect opportunity cost of selling ingredients
+SELECT a.name, a.title, a.show, a.unit,
+	   coalesce(b.mass, a.mass_l) mass_l,
+       coalesce(b.price, a.price_l) price_l
+  FROM fill a
+  LEFT JOIN tmr b ON a.name = b.name
+
+), fill_free AS (
+-- assumes you are not paying water to fill animal points
 SELECT name, title, show, unit, mass_l, 
        CASE WHEN name = 'WATER' THEN 0 
-	        WHEN name = 'FORAGE' THEN price_l * 0.61  
 			ELSE price_l END price_l
-  FROM fill
+  FROM fill_alt
 
 ), afill_max AS (
-SELECT subtype, type, fill_type, direction, age_mo, liter_day,
-       row_number() over(partition by type, subtype, fill_type, direction order by age_mo desc) rn
+SELECT subtype, type, fill_type, fill_type_sub, direction, age_mo, liter_day,
+       row_number() over(partition by type, subtype, fill_type, fill_type_sub, direction order by age_mo desc) rn
   FROM animal_fill
 
 ), afood AS (
@@ -145,7 +168,8 @@ SELECT subtype, type, group_concat(fill_type, ', ') fill_type, NULL title,
 ), aprod_in_serial AS (
 SELECT subtype, type, fill_type, title, direction, age_mo, fill_subtype, consumption,
        prod_wgt, liter_day * price_l price_day  
-  FROM aprod_in WHERE consumption = 'SERIAL'
+  FROM aprod_in
+ WHERE consumption = 'SERIAL'
 
 ), aprod_in_union AS (
 SELECT * FROM aprod_in_serial UNION
@@ -170,11 +194,8 @@ SELECT a.*, coalesce(b.price_day_other, 0) price_day_other,
  LEFT JOIN aprod_in_notfood_sum b ON a.subtype = b.subtype
 
 ), aprod_out AS (
-SELECT a.subtype, a.type, a.direction, a.age_mo, a.liter_day, a.fill_type fill_cat, c.fill_type ft2,
-       CASE WHEN a.fill_type = 'pallets' THEN
-         -- hack for FS25 until we get access to actual animal xml data
-	       CASE WHEN b.pallet_fill = 'WOOL GOATMILK' THEN 'WOOL' ELSE b.pallet_fill END 
-	     ELSE upper(a.fill_type) END fill_type,
+SELECT a.subtype, a.type, a.direction, a.age_mo, a.liter_day, a.fill_type fill_cat, c.fill_type capacity_type,
+       CASE WHEN a.fill_type_sub IS NULL THEN upper(a.fill_type) ELSE a.fill_type_sub END fill_type,
        b.id, b.unit_max, b.price, b.upkeep_price
   FROM afill_max a
  INNER JOIN animal_point b ON a.type = b.type
@@ -246,6 +267,7 @@ SELECT id, type, subtype, unit_max, point_cost, point_upkeep, revenue_day, has_m
 SELECT *, point_animal_cost / profit_day cost_recoup_days 
   FROM aprod_calc;
 
+
 --
 -- joined production with profit index calcs
 --
@@ -258,12 +280,13 @@ SELECT point_id, point_type, prod_id, NULL food_choice, profit_hour * 24 profit_
  UNION
 SELECT id point_id, 'animal' point_type, subtype prod_id, fill_type food_choice, profit_day,
        NULL shared_throughput, point_animal_cost upfront_cost, cost_recoup_days
-  FROM animal_prod_profit_day 
+  FROM animal_profit_day 
 )
 
 SELECT *, profit_day/abs(cost_recoup_days) profit_index  
   FROM prod_join
  ORDER BY profit_day/abs(cost_recoup_days) DESC;
+
 
 --
 -- total point production, with shared vs not shared throughput taken into accout.
