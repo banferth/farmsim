@@ -145,8 +145,8 @@ def create_db(db_path=':memory:'):
         )),
         '\n'.join((
             "CREATE TABLE IF NOT EXISTS animal_fill (",
-            "   subtype TEXT, type TEXT, fill_type TEXT, direction TEXT, age_mo INTEGER,",
-            "   liter_day REAL, ",
+            "   subtype TEXT, type TEXT, fill_type TEXT, fill_type_sub TEXT, direction TEXT,",
+            "   age_mo INTEGER, liter_day REAL, ",
             "   PRIMARY KEY (subtype, fill_type, direction, age_mo), "
             "   FOREIGN KEY(subtype) REFERENCES animal(subtype)"
             ");",
@@ -621,8 +621,9 @@ def get_animals(dataS_dir, con):
     # month age class this is probably because the game creates age ranges (e.g. 0-12, 12+)
     # from these values, but we won't do that
     fill_sql = '\n'.join((
-        "INSERT OR REPLACE INTO animal_fill (subtype, type, fill_type, direction, age_mo,",
-        "liter_day) VALUES (:subtype, :type, :fill_type, :direction, :age_mo, :liter_day);"
+        "INSERT OR REPLACE INTO animal_fill (subtype, type, fill_type, fill_type_sub, direction,",
+        "age_mo, liter_day) VALUES (:subtype, :type, :fill_type, :fill_type_sub, :direction, ",
+        ":age_mo, :liter_day);"
     ))
     c = con.cursor()
     animal_dir = os.path.join(dataS_dir, "character")
@@ -699,6 +700,7 @@ def get_animals(dataS_dir, con):
             if iput:
                 for k, v in iput.items():
                     fill_type = k
+                    ft_sub = v.get('@fillType')
                     key_list = v.get('key')
                     if isinstance(key_list, dict):
                         key_list = [key_list]
@@ -708,6 +710,7 @@ def get_animals(dataS_dir, con):
                         in_dict['subtype'] = sub.get('@subType')
                         in_dict['fill_type'] = fill_type
                         in_dict['direction'] = 'in'
+                        in_dict['fill_type_sub'] = ft_sub
                         in_dict['age_mo'] = tryint(key.get('@ageMonth'))
                         in_dict['liter_day'] = tryfloat(key.get('@value'))
                         # print(in_dict)
@@ -717,6 +720,7 @@ def get_animals(dataS_dir, con):
             if output:
                 for k, v in output.items():
                     fill_type = k
+                    ft_sub = v.get('@fillType')
                     key_list = v.get('key')
                     if isinstance(key_list, dict):
                         key_list = [key_list]
@@ -726,6 +730,7 @@ def get_animals(dataS_dir, con):
                         out_dict['subtype'] = sub.get('@subType')
                         out_dict['fill_type'] = fill_type
                         out_dict['direction'] = 'out'
+                        out_dict['fill_type_sub'] = ft_sub
                         out_dict['age_mo'] = tryint(key.get('@ageMonth'))
                         out_dict['liter_day'] = tryfloat(key.get('@value'))
                         # print(out_dict)
@@ -733,6 +738,8 @@ def get_animals(dataS_dir, con):
 
     c.executemany(animal_sql, animal_out)
     c.executemany(price_sql, price_out)
+    for st in fill_out:
+        c.execute(fill_sql, st)
     c.executemany(fill_sql, fill_out)
     con.commit()
 

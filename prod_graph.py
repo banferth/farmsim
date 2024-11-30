@@ -1,10 +1,11 @@
+import math
+import os
 import sqlite3 as sqlite
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-import math
 
-db_path = '~/Games/farming_simulator22/scrape.sqlite'
+db_path = os.path.expanduser('~/Games/farming_simulator22/scrape.sqlite')
 con = sqlite.connect(db_path)
 
 g = nx.DiGraph()

@@ -1,6 +1,7 @@
 type,title,fill_type
 COW,$l10n_fillTypeGroup_forage,FORAGE
 COW,$l10n_fillTypeGroup_hay,DRYGRASS_WINDROW
+COW,$l10n_fillTypeGroup_silage,SILAGE
 COW,$l10n_fillTypeGroup_grass,GRASS_WINDROW
 SHEEP,$l10n_fillTypeGroup_grass,GRASS_WINDROW
 SHEEP,$l10n_fillTypeGroup_grass,DRYGRASS_WINDROW
@@ -13,9 +14,15 @@ PIG,$l10n_fillTypeGroup_protein,CANOLA
 PIG,$l10n_fillTypeGroup_protein,SUNFLOWER
 PIG,$l10n_fillTypeGroup_earth,POTATO
 PIG,$l10n_fillTypeGroup_earth,SUGARBEET
+PIG,$l10n_fillTypeGroup_earth,CARROT
+PIG,$l10n_fillTypeGroup_earth,PARSNIP
+PIG,$l10n_fillTypeGroup_earth,BEETROOT
 HORSE,$l10n_fillTypeGroup_bulk,OAT
 HORSE,$l10n_fillTypeGroup_bulk,SORGHUM
 HORSE,$l10n_fillTypeGroup_hay,DRYGRASS_WINDROW
+HORSE,$l10n_fillTypeGroup_earth,CARROT
+HORSE,$l10n_fillTypeGroup_earth,PARSNIP
+HORSE,$l10n_fillTypeGroup_earth,BEETROOT
 CHICKEN,$l10n_fillTypeGroup_grain,WHEAT
 CHICKEN,$l10n_fillTypeGroup_grain,BARLEY
 CHICKEN,$l10n_fillTypeGroup_grain,SORGHUM

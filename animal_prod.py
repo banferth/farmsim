@@ -510,7 +510,8 @@ def forage_adj_calc(con, hay, silage, straw, mineral):
     return forage_adj
 
 
-db_path = r'~/Games/farming_simulator22/scrape.sqlite'
+db_path = os.path.expanduser('~/Games/farming_simulator22/scrape.sqlite')
+base_fig_dir = os.path.expanduser('~/Games/farming_simulator22/prod_figs')
 
 con = sqlite.connect(db_path)
 # min adj = 50% hay, 30% straw, 20% silage, 0% mineral feed
@@ -664,8 +665,6 @@ def calc_recoup(ap_list, point_id, breed, animal_amt, buy_age,
              linestyle = 'dashed')
 
     return {'m': m, 'b': b}, q, plt
-
-base_fig_dir = r'~/Games/farming_simulator22/prod_figs'
 
 # milk production, forage, age 0
 l1, m1, p1 = calc_recoup(ap_list = ap_list,
