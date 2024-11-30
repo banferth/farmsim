@@ -280,7 +280,7 @@ SELECT point_id, point_type, prod_id, NULL food_choice, profit_hour * 24 profit_
  UNION
 SELECT id point_id, 'animal' point_type, subtype prod_id, fill_type food_choice, profit_day,
        NULL shared_throughput, point_animal_cost upfront_cost, cost_recoup_days
-  FROM animal_profit_day 
+  FROM animal_prod_profit_day 
 )
 
 SELECT *, profit_day/abs(cost_recoup_days) profit_index  
