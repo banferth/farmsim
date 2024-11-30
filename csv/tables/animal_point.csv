@@ -1,0 +1,24 @@
+id,place_type,name,price,upkeep_price,type,unit_max,food_cap,food_default,pallet_fill,pallet_maxno,water_auto
+chickenBarnSmall,chickenHusbandry,$l10n_storeItem_animalBarnChickenSmall,2450.0,10.0,CHICKEN,31,750,WHEAT,EGG,8,
+chickenCoop01,chickenHusbandry,$l10n_storeItem_animalBarnChickenSmall,6900.0,10.0,CHICKEN,20,750,,EGG,6,
+chickenCoop02,chickenHusbandry,$l10n_storeItem_animalBarnChickenSmall,5700.0,10.0,CHICKEN,20,750,,EGG,6,
+chickenCoop03,chickenHusbandry,$l10n_storeItem_animalBarnChickenSmall,4400.0,10.0,CHICKEN,30,5000,WHEAT,EGG,6,
+cowBarn,cowHusbandryPastureStraw,$l10n_storeItem_animalBarnCowMedium,85000.0,200.0,COW,35,60000,forage,,,1
+cowBarnSmall,cowHusbandryPasture,$l10n_storeItem_animalBarnCowSmall,15000.0,75.0,COW,7,11250,FORAGE,,,0
+horseBarn,horseHusbandryPasture,$l10n_storeItem_animalBarnHorseMedium,110000.0,25.0,HORSE,13,20000,OAT,,,1
+horseBarnSmall,horseHusbandryPasture,$l10n_storeItem_animalBarnHorseSmall,55000.0,25.0,HORSE,11,7000,OAT,,,0
+pigBarn,pigHusbandry,$l10n_storeItem_animalBarnPigMedium,67000.0,100.0,PIG,50,34000,WHEAT,,,1
+pigBarnSmall,pigHusbandryPasture,$l10n_storeItem_animalBarnPigSmall,20000.0,25.0,PIG,36,9500,WHEAT,,,0
+sheepBarnSmall,sheepHusbandry,$l10n_storeItem_animalBarnSheepSmall,14000.0,25.0,SHEEP,19,3000,DRYGRASS_WINDROW,WOOL GOATMILK,8,0
+sheepGoatBarn,sheepHusbandry,$l10n_storeItem_animalBarnSheepMedium,48000.0,150.0,SHEEP,26,11500,DRYGRASS_WINDROW,WOOL GOATMILK,4,1
+specialCowStable,cowHusbandryPastureStraw,$l10n_storeItem_animalBarnCowBig,170000.0,200.0,COW,99,60000,forage,,,1
+chickenBarnBig,chickenHusbandry,$l10n_storeItem_animalBarnChickenBig,79000.0,100.0,CHICKEN,360,9000,WHEAT,EGG,6,
+cowBarnBig,cowHusbandryBarnMilk,$l10n_storeItem_animalBarnCowBig,518500.0,200.0,COW,96,60000,forage,,,1
+cowBarnBigVector,cowHusbandryBarnMilkFeedingRobot,$l10n_storeItem_animalBarnCowBigVector,722500.0,350.0,COW,93,60000,forage,,,1
+cowBarnMedium,cowHusbandryBarnMilk,$l10n_storeItem_animalBarnCowMedium,254000.0,150.0,COW,50,33750,forage,,,1
+horseBarnBig,horseHusbandry,$l10n_storeItem_animalBarnHorseBig,125000.0,150.0,HORSE,16,20000,OAT,,,1
+horseBarnMedium,horseHusbandry,$l10n_storeItem_animalBarnHorseMedium,118500.0,100.0,HORSE,16,11500,OAT,,,1
+pigBarnBig,pigHusbandry,$l10n_storeItem_animalBarnPigBig,164000.0,150.0,PIG,275,85000,WHEAT,,,1
+pigBarnMedium,pigHusbandry,$l10n_storeItem_animalBarnPigMedium,109000.0,100.0,PIG,109,34000,WHEAT,,,1
+sheepBarnBig,sheepHusbandry,$l10n_storeItem_animalBarnSheepBig,97000.0,150.0,SHEEP,68,11500,DRYGRASS_WINDROW,WOOL GOATMILK,12,1
+sheepBarnMedium,sheepHusbandry,$l10n_storeItem_animalBarnSheepMedium,51000.0,100.0,SHEEP,26,4500,DRYGRASS_WINDROW,WOOL GOATMILK,6,1

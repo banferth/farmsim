@@ -1,0 +1,5 @@
+fill_type,name,title,fill_types,pct_min,pct_max
+FORAGE,dryGrass,$l10n_fillType_dryGrass,DRYGRASS_WINDROW,0.2,0.75
+FORAGE,silage,$l10n_fillType_silage,SILAGE,0.2,0.75
+FORAGE,straw,$l10n_fillType_straw,STRAW,0.0,0.3
+FORAGE,mineralFeed,$l10n_fillType_mineralFeed,MINERAL_FEED,0.0,0.07

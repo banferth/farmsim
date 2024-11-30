@@ -1,0 +1,212 @@
+point_id,point_type,id,name,cycles_hour,cost_hour
+greenHouseGlassLarge,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHouseGlassLarge,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHouseGlassLarge,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHouseGlassLarge,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHouseGlassLarge,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHouseGlassLarge,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHouseGlassLarge,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+greenHouseGlassMedium,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHouseGlassMedium,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHouseGlassMedium,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHouseGlassMedium,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHouseGlassMedium,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHouseGlassMedium,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHouseGlassMedium,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+greenHouseGlassSmall,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHouseGlassSmall,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHouseGlassSmall,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHouseGlassSmall,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHouseGlassSmall,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHouseGlassSmall,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHouseGlassSmall,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+greenHouseMushroomsLarge,greenhouses,enoki,$l10n_fillType_enoki,34,0.1
+greenHouseMushroomsLarge,greenhouses,oyster,$l10n_fillType_oyster,28,0.1
+greenHouseMushroomsMedium,greenhouses,enoki,$l10n_fillType_enoki,17,0.1
+greenHouseMushroomsMedium,greenhouses,oyster,$l10n_fillType_oyster,14,0.1
+greenHouseMushroomsSmall,greenhouses,enoki,$l10n_fillType_enoki,8.5,0.1
+greenHouseMushroomsSmall,greenhouses,oyster,$l10n_fillType_oyster,7,0.1
+greenHousesSaplings,greenhouses,riceSaplings,$l10n_fillType_riceSaplings,2,0.1
+greenHousesTarpLarge,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHousesTarpLarge,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHousesTarpLarge,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHousesTarpLarge,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHousesTarpLarge,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHousesTarpLarge,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHousesTarpLarge,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+greenHousesTarpMedium,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHousesTarpMedium,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHousesTarpMedium,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHousesTarpMedium,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHousesTarpMedium,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHousesTarpMedium,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHousesTarpMedium,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+greenHousesTarpSmall,greenhouses,tomato,$l10n_fillType_tomato,44,0.1
+greenHousesTarpSmall,greenhouses,lettuce,$l10n_fillType_lettuce,42,0.1
+greenHousesTarpSmall,greenhouses,strawberry,$l10n_fillType_strawberry,22,0.1
+greenHousesTarpSmall,greenhouses,springOnion,$l10n_fillType_springOnion,14,0.1
+greenHousesTarpSmall,greenhouses,napaCabbage,$l10n_fillType_napaCabbage,28,0.1
+greenHousesTarpSmall,greenhouses,chilli,$l10n_fillType_chilli,22,0.1
+greenHousesTarpSmall,greenhouses,garlic,$l10n_fillType_garlic,30,0.1
+bakery,productionPointsGeneric,bread,$l10n_fillType_bread ($l10n_fillType_flour),5,2.5
+bakery,productionPointsGeneric,breadRiceFlour,$l10n_fillType_bread ($l10n_fillType_riceFlour),2,3.0
+bakery,productionPointsGeneric,cake,$l10n_fillType_cake ($l10n_fillType_flour),2,2.5
+bakery,productionPointsGeneric,cakeRiceFlour,$l10n_fillType_cake ($l10n_fillType_riceFlour),2,2.5
+carpentry,productionPointsGeneric,furnitureWood,$l10n_fillType_furniture ($l10n_fillType_wood),5,3.0
+carpentry,productionPointsGeneric,furnitureBoards,$l10n_fillType_furniture ($l10n_fillType_boards),8,3.0
+carpentry,productionPointsGeneric,furniturePlanks,$l10n_fillType_furniture ($l10n_fillType_planks),14,3.0
+cerealFactory,productionPointsGeneric,cereal_raisins,$l10n_fillType_cereal ($l10n_fillType_raisins),9,5.0
+cerealFactory,productionPointsGeneric,cereal_chocolate,$l10n_fillType_cereal ($l10n_fillType_chocolate),9,5.0
+cerealFactory,productionPointsGeneric,cereal_riceLongGrain,$l10n_fillType_cereal ($l10n_fillType_riceLongGrain),6,10.0
+cerealFactory,productionPointsGeneric,cereal_rice,$l10n_fillType_cereal ($l10n_fillType_rice),6,10.0
+dairy,productionPointsGeneric,butter_milk,$l10n_fillType_butter ($l10n_fillType_milk),20,1.0
+dairy,productionPointsGeneric,butter_goatMilk,$l10n_fillType_butter ($l10n_fillType_goatMilk),31,4.0
+dairy,productionPointsGeneric,butter_buffaloMilk,$l10n_fillType_butter ($l10n_fillType_buffaloMilk),2.2,8.0
+dairy,productionPointsGeneric,cheese,$l10n_fillType_cheese,55,1.0
+dairy,productionPointsGeneric,goatcheese,$l10n_fillType_goatCheese,40,4.0
+dairy,productionPointsGeneric,buffalomozzarella,$l10n_fillType_buffaloMozzarella,20,8.0
+dairy,productionPointsGeneric,chocolate,$l10n_fillType_chocolate,105,1.0
+dairy,productionPointsGeneric,milkBottled,$l10n_fillType_milk_bottled,20,1.0
+dairy,productionPointsGeneric,goatmilkBottled,$l10n_fillType_goatMilk_bottled,6,4.0
+dairy,productionPointsGeneric,buffalomilkBottled,$l10n_fillType_buffaloMilk_bottled,6,8.0
+grainMill,productionPointsGeneric,flourWheat,$l10n_fillType_wheat $l10n_fillType_flour,105,1.0
+grainMill,productionPointsGeneric,flourBarley,$l10n_fillType_barley $l10n_fillType_flour,20,1.0
+grainMill,productionPointsGeneric,flourOat,$l10n_fillType_oat $l10n_fillType_flour,50,1.0
+grainMill,productionPointsGeneric,flourSorghum,$l10n_fillType_sorghum $l10n_fillType_flour,50,1.0
+grainMill,productionPointsGeneric,flourRiceLongGrain,$l10n_fillType_riceFlour ($l10n_fillType_riceLongGrain),30,2.0
+grainMill,productionPointsGeneric,flourRice,$l10n_fillType_riceFlour ($l10n_fillType_rice),30,1.0
+grapeProcessingUnit,productionPointsGeneric,raisins,$l10n_fillType_raisins,220,2.5
+grapeProcessingUnit,productionPointsGeneric,grapejuice,$l10n_fillType_grapeJuice,30,2.5
+oilMill,productionPointsGeneric,sunflower_oil,$l10n_fillType_sunflowerOil,20,2.5
+oilMill,productionPointsGeneric,canola_oil,$l10n_fillType_canolaOil,20,2.5
+oilMill,productionPointsGeneric,olive_oil,$l10n_fillType_oliveOil,10,2.5
+oilMill,productionPointsGeneric,rice_oil_longGrainRice,$l10n_fillType_riceOil ($l10n_fillType_riceLongGrain),20,2.5
+oilMill,productionPointsGeneric,rice_oil_rice,$l10n_fillType_riceOil ($l10n_fillType_rice),20,2.5
+paperFactory,productionPointsGeneric,cartonRoll,$l10n_fillType_cartonRoll,1,5.0
+paperFactory,productionPointsGeneric,paperRoll,$l10n_fillType_paperRoll,1,3.0
+sawmill,productionPointsGeneric,boards,$l10n_fillType_wood ($l10n_fillType_boards),1,2.0
+sawmill,productionPointsGeneric,planks,$l10n_fillType_wood ($l10n_fillType_planks),1,2.0
+sawmill,productionPointsGeneric,woodBeam,$l10n_fillType_wood ($l10n_fillType_woodBeam),1,2.0
+sawmill,productionPointsGeneric,prefabWall,$l10n_fillType_wood ($l10n_fillType_prefabWall),1.4,2.0
+sawmillPlaceable,productionPointsGeneric,boards,$l10n_fillType_wood ($l10n_fillType_boards),1,2.0
+sawmillPlaceable,productionPointsGeneric,planks,$l10n_fillType_wood ($l10n_fillType_planks),1,2.0
+sawmillPlaceable,productionPointsGeneric,woodBeam,$l10n_fillType_wood ($l10n_fillType_woodBeam),1,2.0
+spinnery,productionPointsGeneric,fabric_wool,$l10n_fillType_fabric $l10n_fillType_wool,60,5.0
+spinnery,productionPointsGeneric,fabric_cotton,$l10n_fillType_fabric $l10n_fillType_cotton,100,5.0
+sugarMill,productionPointsGeneric,sugarbeet_sugar,$l10n_fillType_sugarBeet $l10n_fillType_sugar,530,5.0
+sugarMill,productionPointsGeneric,sugarbeetCut_sugar,$l10n_fillType_sugarBeetCut $l10n_fillType_sugar,245,3.0
+sugarMill,productionPointsGeneric,sugarcane_sugar,$l10n_fillType_sugarCane $l10n_fillType_sugar,365,5.0
+tailorShop,productionPointsGeneric,clothes,$l10n_fillType_clothes,100,10.0
+bakery,productionPointsSmall,bread,$l10n_fillType_bread ($l10n_fillType_flour),5,2.5
+bakery,productionPointsSmall,breadRiceFlour,$l10n_fillType_bread ($l10n_fillType_riceFlour),2,3.0
+bakery,productionPointsSmall,cake,$l10n_fillType_cake ($l10n_fillType_flour),0.2,2.5
+bakery,productionPointsSmall,cakeRiceFlour,$l10n_fillType_cake ($l10n_fillType_riceFlour),0.2,2.5
+cannedPackagedFactory,productionPointsSmall,preservedFoodCarrots,$l10n_fillType_preservedFoodCarrots,1,4.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodParsnip,$l10n_fillType_preservedFoodParsnip,1,4.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodBeetRoot,$l10n_fillType_preservedFoodBeetRoot,1,4.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodCannedPea,$l10n_fillType_cannedPea,1,2.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodSpinachBags,$l10n_fillType_spinachBag,1,2.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodRiceBags,$l10n_fillType_riceBag ($l10n_fillType_rice),1,2.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodRiceBoxes,$l10n_fillType_riceBox ($l10n_fillType_riceLongGrain),1,2.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodjarredGreenbean,$l10n_fillType_jarredGreenBean,1,2.0
+cannedPackagedFactory,productionPointsSmall,preservedFoodFermentedNapaCabbage,$l10n_fillType_fermentedNapaCabbage,1,5.0
+cannedPackagedFactory,productionPointsSmall,noodleSoupFlour,$l10n_fillType_noodleSoup ($l10n_fillType_flour),1,2.0
+cannedPackagedFactory,productionPointsSmall,noodleSoupRiceFlour,$l10n_fillType_noodleSoup ($l10n_fillType_riceFlour),1,1.0
+cannedPackagedFactory,productionPointsSmall,riceRollsRiceLongGrain,$l10n_fillType_riceBag ($l10n_fillType_riceLongGrain),1,5.0
+cannedPackagedFactory,productionPointsSmall,riceRollsRice,$l10n_fillType_riceBag ($l10n_fillType_rice),1,7.0
+carpenter,productionPointsSmall,furnitureWood,$l10n_fillType_furniture ($l10n_fillType_wood),5,3.0
+carpenter,productionPointsSmall,furnitureBoards,$l10n_fillType_furniture ($l10n_fillType_boards),8,3.0
+carpenter,productionPointsSmall,furniturePlanks,$l10n_fillType_furniture ($l10n_fillType_planks),14,3.0
+dairy,productionPointsSmall,butter_milk,$l10n_fillType_butter ($l10n_fillType_milk),2,1.0
+dairy,productionPointsSmall,butter_goatMilk,$l10n_fillType_butter ($l10n_fillType_goatMilk),3.1,4.0
+dairy,productionPointsSmall,butter_buffaloMilk,$l10n_fillType_butter ($l10n_fillType_buffaloMilk),0.22,8.0
+dairy,productionPointsSmall,cheese,$l10n_fillType_cheese,5.5,1.0
+dairy,productionPointsSmall,goatcheese,$l10n_fillType_goatCheese,4,4.0
+dairy,productionPointsSmall,buffalomozzarella,$l10n_fillType_buffaloMozzarella,2,8.0
+dairy,productionPointsSmall,chocolate,$l10n_fillType_chocolate,10.5,1.0
+dairy,productionPointsSmall,milkBottled,$l10n_fillType_milk_bottled,2,1.0
+dairy,productionPointsSmall,goatmilkBottled,$l10n_fillType_goatMilk_bottled,0.6,4.0
+dairy,productionPointsSmall,buffalomilkBottled,$l10n_fillType_buffaloMilk_bottled,0.6,8.0
+grainFlourMill,productionPointsSmall,flourWheat,$l10n_fillType_wheat $l10n_fillType_flour,10.5,1.0
+grainFlourMill,productionPointsSmall,flourBarley,$l10n_fillType_barley $l10n_fillType_flour,2,1.0
+grainFlourMill,productionPointsSmall,flourOat,$l10n_fillType_oat $l10n_fillType_flour,5,1.0
+grainFlourMill,productionPointsSmall,flourSorghum,$l10n_fillType_sorghum $l10n_fillType_flour,5,1.0
+grainFlourMill,productionPointsSmall,flourRiceLongGrain,$l10n_fillType_riceFlour ($l10n_fillType_riceLongGrain),3,2.0
+grainFlourMill,productionPointsSmall,flourRice,$l10n_fillType_riceFlour ($l10n_fillType_rice),3,1.0
+grapeProcessingPlant,productionPointsSmall,raisins,$l10n_fillType_raisins,22,2.5
+grapeProcessingPlant,productionPointsSmall,grapejuice,$l10n_fillType_grapeJuice,3,2.5
+oilPlant,productionPointsSmall,sunflower_oil,$l10n_fillType_sunflowerOil,2,2.5
+oilPlant,productionPointsSmall,canola_oil,$l10n_fillType_canolaOil,2,2.5
+oilPlant,productionPointsSmall,olive_oil,$l10n_fillType_oliveOil,1,2.5
+oilPlant,productionPointsSmall,rice_oil_longGrainRice,$l10n_fillType_riceOil ($l10n_fillType_riceLongGrain),2,2.5
+oilPlant,productionPointsSmall,rice_oil_rice,$l10n_fillType_riceOil ($l10n_fillType_rice),2,2.5
+sawmill,productionPointsSmall,boards,$l10n_fillType_wood ($l10n_fillType_boards),1,2.0
+sawmill,productionPointsSmall,planks,$l10n_fillType_wood ($l10n_fillType_planks),1,2.0
+sawmill,productionPointsSmall,woodBeam,$l10n_fillType_wood ($l10n_fillType_woodBeam),1,2.0
+spinnery,productionPointsSmall,fabric_wool,$l10n_fillType_fabric $l10n_fillType_wool,6,5.0
+spinnery,productionPointsSmall,fabric_cotton,$l10n_fillType_fabric $l10n_fillType_cotton,10,5.0
+sugarMill,productionPointsSmall,sugarbeet_sugar,$l10n_fillType_sugarBeet $l10n_fillType_sugar,53,5.0
+sugarMill,productionPointsSmall,sugarbeetCut_sugar,$l10n_fillType_sugarBeetCut $l10n_fillType_sugar,24.5,3.0
+sugarMill,productionPointsSmall,sugarcane_sugar,$l10n_fillType_sugarCane $l10n_fillType_sugar,36.5,5.0
+tailorShop,productionPointsSmall,clothes,$l10n_fillType_clothes,10,10.0
+potatoProcessingPlantPlaceable,mapEU,potatoChips_sunflowerOil,$l10n_fillType_potatoChips,10,5.0
+potatoProcessingPlantPlaceable,mapEU,potatoChips_canolaOil,$l10n_fillType_potatoChips,10,8.0
+potatoProcessingPlantPlaceable,mapEU,potatoChips_oliveOil,$l10n_fillType_potatoChips,10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodCarrots,$l10n_fillType_preservedFoodCarrots,10,4.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodParsnip,$l10n_fillType_preservedFoodParsnip,10,4.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodBeetRoot,$l10n_fillType_preservedFoodBeetRoot,10,4.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodCannedPea,$l10n_fillType_cannedPea,10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodSpinachBags,$l10n_fillType_spinachBag,10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodRiceBags,$l10n_fillType_riceBag ($l10n_fillType_rice),10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodRiceBoxes,$l10n_fillType_riceBox ($l10n_fillType_riceLongGrain),10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodjarredGreenbean,$l10n_fillType_jarredGreenBean,10,2.0
+preservedFoodFactoryPlaceable,mapEU,preservedFoodFermentedNapaCabbage,$l10n_fillType_fermentedNapaCabbage,10,5.0
+preservedFoodFactoryPlaceable,mapEU,noodleSoupFlour,$l10n_fillType_noodleSoup ($l10n_fillType_flour),10,2.0
+preservedFoodFactoryPlaceable,mapEU,noodleSoupRiceFlour,$l10n_fillType_noodleSoup ($l10n_fillType_riceFlour),10,1.0
+preservedFoodFactoryPlaceable,mapEU,riceRollsRiceLongGrain,$l10n_fillType_riceBag ($l10n_fillType_riceLongGrain),10,5.0
+preservedFoodFactoryPlaceable,mapEU,riceRollsRice,$l10n_fillType_riceBag ($l10n_fillType_rice),10,7.0
+soupFactoryPlaceable,mapEU,soupCansMixed,$l10n_fillType_soupCansMixed,5,5.0
+soupFactoryPlaceable,mapEU,soupCansCarrots,$l10n_fillType_soupCansCarrots,6,5.0
+soupFactoryPlaceable,mapEU,soupCansParsnip,$l10n_fillType_soupCansParsnip,6,5.0
+soupFactoryPlaceable,mapEU,soupCansBeetroot,$l10n_fillType_soupCansBeetroot,6,5.0
+soupFactoryPlaceable,mapEU,soupCansPotato,$l10n_fillType_soupCansPotato,6,5.0
+cannedPackagedFactoryUS,mapUS,preservedFoodCarrots,$l10n_fillType_preservedFoodCarrots,10,4.0
+cannedPackagedFactoryUS,mapUS,preservedFoodParsnip,$l10n_fillType_preservedFoodParsnip,10,4.0
+cannedPackagedFactoryUS,mapUS,preservedFoodBeetRoot,$l10n_fillType_preservedFoodBeetRoot,10,4.0
+cannedPackagedFactoryUS,mapUS,preservedFoodCannedPea,$l10n_fillType_cannedPea,10,2.0
+cannedPackagedFactoryUS,mapUS,preservedFoodSpinachBags,$l10n_fillType_spinachBag,10,2.0
+cannedPackagedFactoryUS,mapUS,preservedFoodRiceBags,$l10n_fillType_riceBag ($l10n_fillType_rice),10,2.0
+cannedPackagedFactoryUS,mapUS,preservedFoodRiceBoxes,$l10n_fillType_riceBox ($l10n_fillType_riceLongGrain),10,2.0
+cannedPackagedFactoryUS,mapUS,preservedFoodjarredGreenbean,$l10n_fillType_jarredGreenBean,10,2.0
+cannedPackagedFactoryUS,mapUS,preservedFoodFermentedNapaCabbage,$l10n_fillType_fermentedNapaCabbage,10,5.0
+cannedPackagedFactoryUS,mapUS,noodleSoupFlour,$l10n_fillType_noodleSoup ($l10n_fillType_flour),10,2.0
+cannedPackagedFactoryUS,mapUS,noodleSoupRiceFlour,$l10n_fillType_noodleSoup ($l10n_fillType_riceFlour),10,1.0
+cannedPackagedFactoryUS,mapUS,riceRollsRiceLongGrain,$l10n_fillType_riceBag ($l10n_fillType_riceLongGrain),10,5.0
+cannedPackagedFactoryUS,mapUS,riceRollsRice,$l10n_fillType_riceBag ($l10n_fillType_rice),10,7.0
+cementFactoryUS,mapUS,cementBags,$l10n_fillType_cementBags,1,1.0
+cementFactoryUS,mapUS,roofPlate,$l10n_fillType_roofPlate,1,5.0
+cementFactoryUS,mapUS,cementBrick,$l10n_fillType_cementBrick,1,2.0
+cooperUS,mapUS,barrelPlanks,$l10n_fillType_barrel ($l10n_fillType_planks),1,2.0
+cooperUS,mapUS,bucketPlanks,$l10n_fillType_bucket ($l10n_fillType_planks),2,2.0
+cooperUS,mapUS,bathtubPlanks,$l10n_fillType_bathtub ($l10n_fillType_planks),2.5,2.0
+cooperUS,mapUS,barrelBoards,$l10n_fillType_barrel ($l10n_fillType_boards),1,2.0
+cooperUS,mapUS,bucketBoards,$l10n_fillType_bucket ($l10n_fillType_boards),2,2.0
+cooperUS,mapUS,bathtubBoards,$l10n_fillType_bathtub ($l10n_fillType_boards),2.5,2.0
+ropeMakerUS,mapUS,ropePalletWool,$l10n_fillType_wool ($l10n_fillType_rope),10,1.0
+ropeMakerUS,mapUS,ropePalletCotton,$l10n_fillType_cotton ($l10n_fillType_rope),8,0.5
+bga1mw_mixers,planET,biogas,$l10n_fillType_silage,1,25.25
+bga1mw_mixers,planET,biogasLiquidManure,$l10n_fillType_liquidManure,1,25.25
+bga1mw_mixers,planET,biogasManure,$l10n_fillType_manure,1,25.25
+bga1mw_mixers,planET,biogasSugarbeetCut,$l10n_fillType_sugarBeetCut,1,25.25
+bga250kw,planET,biogas,$l10n_fillType_silage,1,6.3
+bga250kw,planET,biogasLiquidManure,$l10n_fillType_liquidManure,1,6.3
+bga250kw,planET,biogasManure,$l10n_fillType_manure,1,6.3
+bga250kw,planET,biogasSugarbeetCut,$l10n_fillType_sugarBeetCut,1,6.3
+bga500kw,planET,biogas,$l10n_fillType_silage,1,12.6
+bga500kw,planET,biogasLiquidManure,$l10n_fillType_liquidManure,1,12.6
+bga500kw,planET,biogasManure,$l10n_fillType_manure,1,12.6
+bga500kw,planET,biogasSugarbeetCut,$l10n_fillType_sugarBeetCut,1,12.6
+bga99kw,planET,biogas,$l10n_fillType_silage,1,2.5
+bga99kw,planET,biogasLiquidManure,$l10n_fillType_liquidManure,1,2.5
+bga99kw,planET,biogasManure,$l10n_fillType_manure,1,2.5
+bga99kw,planET,biogasSugarbeetCut,$l10n_fillType_sugarBeetCut,1,2.5
